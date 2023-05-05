@@ -35,16 +35,3 @@ def french_to_english(french_text=''):
         model_id='fr-en').get_result()
         english_text = translation['translations'][0]['translation']
     return english_text
-
-
-# print(english_to_french('I want some food'))
-# print(english_to_french('Red'))
-# print(english_to_french('program'))
-
-# print(french_to_english('Programme'))
-# print(french_to_english('Bonjour'))
-# print(french_to_english('Bonjour'))
-
-# print(french_to_english(''))
-# print(french_to_english(None))
-# print(french_to_english())
